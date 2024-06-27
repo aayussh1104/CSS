@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    /* border-width: 2px; 
+    border-style: dotted;
+    border-color: brown;*/
+    border: 2px brown dotted;
+}
+
+h1{
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+    border-width:3px ;
+    border-style: dashed;
+    border-color: burlywood;
+    text-align: center;
+}
+
+#div1{
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    border-width: 2px; 
+    border-style: dotted;
+    border-color: brown;
+    border: 2px brown dotted;
+
+    /*border-radius: 50%;*/ /*to create a circle first we make a square box then set border radius*/
+   /* padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;*/
+    /*padding: 1px 2px 3px 4px;*/  /*top right bottom left, it goes clockwise*/
+    padding: 50px; /*for all top bottom left right at once*/
+    /*margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin left: 25px;*/
+    /*margin: 1px 2px 3px 4px;*/ /*top right bottom left, it goes clockwise*/
+    margin: 25px;  /*for all top bottom left right at once*/
+
+
+
+}

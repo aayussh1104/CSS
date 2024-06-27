@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;  /*it arranges all the boxes inside a container horizontal row wise and we can use column reverse or column or row revise*/
+    justify-content: center; /*it moves all the boxes at once and doesnt change the order of boxes like flex direction property and we can use flex-start and flex-end property in it too and space-around creates spaces between boxes and more properties like space-evenly etc*/
+    /*flex-wrap: wrap;*/
+    align-items: flex-start;
+    /*align-content: flex-start;*/
+}
+
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    /*flex-shrink: 0;*/
+    flex-grow: 2;
+
+}
+
+#box3{
+    background-color: blue;
+    height: 75px;
+}
+
+#box4{
+    background-color: brown;
+}
+
+#box5{
+    background-color: slateblue;
+    /*align-self: flex-end;*/ /*it has higher priority over any flex priority applied on container*/
+}

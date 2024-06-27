@@ -1,0 +1,40 @@
+#div{
+    background-color: red;
+    display: inline;
+}
+
+button{
+    display: block;
+    background-color: blueviolet;
+}
+
+#div1{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#div2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;    /* it wont make margin top and bottom and the height and width wont apply in this*/
+}
+
+#div3{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: none;       /* it will diappear the box3 div and no space will be reserved for the element on using this*/
+}
+
+#opacity{
+    background-color: rgba(255,0,0,0.5);
+}

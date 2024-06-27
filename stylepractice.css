@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 80px; /* Increased height */
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 20px; /* Reduced margin for better spacing */
+    text-decoration: none; /* Changed to none for better readability */
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 500px;
+}
+
+footer {
+    background-color: #0f1111; /* Added background color for better visibility */
+    padding: 20px; /* Added padding for better spacing */
+    text-align: center;
+}
+
+
